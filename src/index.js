@@ -10,7 +10,7 @@ const server = require("http").Server(app); //defeine o suporte ao protocolo htt
 const io = require("socket.io")(server); //configura acesso via websocket
 
 mongoose.connect(
-  "mongodb+srv://semana:semana@cluster0-sfoyh.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://coloque aqui o seu path para o banco de dados",
   {
     useNewUrlParser: true
   }
